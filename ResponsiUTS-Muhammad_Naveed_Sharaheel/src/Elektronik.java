@@ -11,7 +11,7 @@
 public class Elektronik extends Produk {
     private int garansi;
 
-    public Elektronik(String namaProduk, double harga, int garansi) {
+    public Elektronik(String namaProduk, int harga, int garansi) {
         super(namaProduk, harga);
         this.garansi = garansi;
     }

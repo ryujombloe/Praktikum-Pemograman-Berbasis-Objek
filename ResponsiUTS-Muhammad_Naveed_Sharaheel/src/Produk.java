@@ -11,11 +11,11 @@
     //class Produk
 public class Produk {
     private String namaProduk;
-    private double harga;
+    private int harga;
 
-    public Produk(String namaProduk, double harga) {
+    public Produk(String namaProduk, int harga) {
         this.namaProduk = namaProduk;
-        this.harga = harga;
+        this.harga = (int) harga;
     }
 
     public String getNamaProduk() {
@@ -30,8 +30,8 @@ public class Produk {
         return harga;
     }
 
-    public void setHarga(double harga) {
-        this.harga = harga;
+    public void setHarga(int harga) {
+        this.harga = (int) harga;
     }
 
     public void tampilkanInfo() {

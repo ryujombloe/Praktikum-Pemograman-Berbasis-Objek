@@ -11,7 +11,7 @@
 public class PegawaiTetap extends Pegawai {
     private double tunjangan;
 
-    public PegawaiTetap(String namaPegawai, double gaji, double tunjangan) {
+    public PegawaiTetap(String namaPegawai, int gaji, int tunjangan) {
         super(namaPegawai, gaji);
         this.tunjangan = tunjangan;
     }
@@ -20,7 +20,7 @@ public class PegawaiTetap extends Pegawai {
         return tunjangan;
     }
 
-    public void setTunjangan(double tunjangan) {
+    public void setTunjangan(int tunjangan) {
         this.tunjangan = tunjangan;
     }
 

@@ -10,9 +10,9 @@
 // Kelas Pegawai
 public class Pegawai {
     private String namaPegawai;
-    private double gaji;
+    private int gaji;
 
-    public Pegawai(String namaPegawai, double gaji) {
+    public Pegawai(String namaPegawai, int gaji) {
         this.namaPegawai = namaPegawai;
         this.gaji = gaji;
     }
@@ -25,11 +25,11 @@ public class Pegawai {
         this.namaPegawai = namaPegawai;
     }
 
-    public double getGaji() {
+    public int getGaji() {
         return gaji;
     }
 
-    public void setGaji(double gaji) {
+    public void setGaji(int gaji) {
         this.gaji = gaji;
     }
 

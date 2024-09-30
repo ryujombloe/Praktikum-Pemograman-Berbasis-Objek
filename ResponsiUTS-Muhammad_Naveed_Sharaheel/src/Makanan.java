@@ -11,7 +11,7 @@
 public class Makanan extends Produk {
     private String tanggalKadaluarsa;
 
-    public Makanan(String namaProduk, double harga, String tanggalKadaluarsa) {
+    public Makanan(String namaProduk, int harga, String tanggalKadaluarsa) {
         super(namaProduk, harga);
         this.tanggalKadaluarsa = tanggalKadaluarsa;
     }

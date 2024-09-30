@@ -11,7 +11,7 @@
 public class PegawaiKontrak extends Pegawai {
     private int lamaKontrak;
 
-    public PegawaiKontrak(String namaPegawai, double gaji, int lamaKontrak) {
+    public PegawaiKontrak(String namaPegawai, int gaji, int lamaKontrak) {
         super(namaPegawai, gaji);
         this.lamaKontrak = lamaKontrak;
     }
